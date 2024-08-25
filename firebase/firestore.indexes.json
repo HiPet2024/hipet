@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "tempo",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "comments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "postid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "date_time",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}

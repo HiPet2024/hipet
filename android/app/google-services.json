@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "917531691203",
+    "project_id": "hipet-2024",
+    "storage_bucket": "hipet-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917531691203:android:daff170b907bd765fefa76",
+        "android_client_info": {
+          "package_name": "com.mycompany.hipet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxHJe573g5I0PAWYHYZ1tiSjs_nI1FJ90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
