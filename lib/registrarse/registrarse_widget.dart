@@ -195,7 +195,7 @@ class _RegistrarseWidgetState extends State<RegistrarseWidget> {
                           autofocus: true,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: 'Ditie seu usuário\n',
+                            labelText: 'Digite seu usuário\n',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(

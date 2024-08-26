@@ -68,6 +68,7 @@ class _PageWidgetState extends State<PageWidget> {
                 Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 30.0),
                   child: PageView.builder(
+                    physics: const NeverScrollableScrollPhysics(),
                     controller: _model.pageViewController ??= PageController(
                         initialPage: max(0, min(0, pages.length - 1))),
                     scrollDirection: Axis.horizontal,
